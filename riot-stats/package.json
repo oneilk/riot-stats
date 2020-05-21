@@ -1,6 +1,6 @@
 {
   "name": "riot-stats",
-  "homepage": "http://oneilk.github.io/riot-stats",
+  "homepage": "https://oneilk.github.io/riot-stats",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
