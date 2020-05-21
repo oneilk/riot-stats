@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent, Typography, Avatar } from "@material-ui/core";
 
 function Summoner(props) {
-  const avatar_url = `http://ddragon.leagueoflegends.com/cdn/6.3.1/img/profileicon/${props.summoner.profileIconId}.png`;
+  const avatar_url = `https://ddragon.leagueoflegends.com/cdn/6.3.1/img/profileicon/${props.summoner.profileIconId}.png`;
   return (
     <Card>
       <CardContent>
