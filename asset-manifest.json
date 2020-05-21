@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/riot-stats/static/js/main.12e45c9f.chunk.js",
+    "main.js.map": "/riot-stats/static/js/main.12e45c9f.chunk.js.map",
+    "runtime-main.js": "/riot-stats/static/js/runtime-main.4522c861.js",
+    "runtime-main.js.map": "/riot-stats/static/js/runtime-main.4522c861.js.map",
+    "static/js/2.25e35a9f.chunk.js": "/riot-stats/static/js/2.25e35a9f.chunk.js",
+    "static/js/2.25e35a9f.chunk.js.map": "/riot-stats/static/js/2.25e35a9f.chunk.js.map",
+    "index.html": "/riot-stats/index.html",
+    "precache-manifest.0342ff4e6ad3d6f489165ebae22d8e90.js": "/riot-stats/precache-manifest.0342ff4e6ad3d6f489165ebae22d8e90.js",
+    "service-worker.js": "/riot-stats/service-worker.js",
+    "static/js/2.25e35a9f.chunk.js.LICENSE.txt": "/riot-stats/static/js/2.25e35a9f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4522c861.js",
+    "static/js/2.25e35a9f.chunk.js",
+    "static/js/main.12e45c9f.chunk.js"
+  ]
+}
