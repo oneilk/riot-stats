@@ -1,7 +1,17 @@
 import React from "react";
+import { connect } from "react-redux";
 
 function TeamFightTacticsResults(props) {
-  return <>Team Fight Tactics</>;
+  if (!props.summoner.id) {
+    return <></>;
+  }
+  return <></>;
 }
 
-export default TeamFightTacticsResults;
+function mapStateToProps(state) {
+  return {
+    summoner: state.search.summoner,
+  };
+}
+
+export default connect(mapStateToProps)(TeamFightTacticsResults);

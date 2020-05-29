@@ -5,6 +5,8 @@ export default {
   search: {
     input: "",
     summoner: {},
-    matchHistory: {},
+    matches: [],
+    isFetchingSummoner: false,
+    isFetchingMatchHistory: false,
   },
 };
