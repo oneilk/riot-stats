@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/riot-stats/static/js/main.da8389a9.chunk.js",
-    "main.js.map": "/riot-stats/static/js/main.da8389a9.chunk.js.map",
+    "main.js": "/riot-stats/static/js/main.efdd802e.chunk.js",
+    "main.js.map": "/riot-stats/static/js/main.efdd802e.chunk.js.map",
     "runtime-main.js": "/riot-stats/static/js/runtime-main.4522c861.js",
     "runtime-main.js.map": "/riot-stats/static/js/runtime-main.4522c861.js.map",
     "static/js/2.f545228a.chunk.js": "/riot-stats/static/js/2.f545228a.chunk.js",
     "static/js/2.f545228a.chunk.js.map": "/riot-stats/static/js/2.f545228a.chunk.js.map",
     "index.html": "/riot-stats/index.html",
-    "precache-manifest.147b35dc8d79c2fb11393779b21b04dc.js": "/riot-stats/precache-manifest.147b35dc8d79c2fb11393779b21b04dc.js",
+    "precache-manifest.f4d29a4262d904f23d75094442ba481f.js": "/riot-stats/precache-manifest.f4d29a4262d904f23d75094442ba481f.js",
     "service-worker.js": "/riot-stats/service-worker.js",
     "static/js/2.f545228a.chunk.js.LICENSE.txt": "/riot-stats/static/js/2.f545228a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4522c861.js",
     "static/js/2.f545228a.chunk.js",
-    "static/js/main.da8389a9.chunk.js"
+    "static/js/main.efdd802e.chunk.js"
   ]
 }
