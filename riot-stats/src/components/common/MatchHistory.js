@@ -18,19 +18,22 @@ const useStyles = makeStyles({
 });
 function MatchHistory(props) {
   const classes = useStyles();
-  const [champAssets, setChampAssets] = useState({});
+  const [champAssets, setChampAssets] = useState([]);
   useEffect(() => {
     fetch(
-      "http://ddragon.leagueoflegends.com/cdn/10.11.1/data/en_US/champion.json"
+      "https://ddragon.leagueoflegends.com/cdn/10.11.1/data/en_US/champion.json"
     )
       .then((response) => response.json())
       .then((data) => setChampAssets(Object.values(data.data)));
   }, []);
   function getChampIcon(key) {
     const name = getChampName(key);
-    return `http://ddragon.leagueoflegends.com/cdn/10.11.1/img/champion/${name}.png`;
+    return `https://ddragon.leagueoflegends.com/cdn/10.11.1/img/champion/${name}.png`;
   }
   function getChampName(key) {
+    if (champAssets.length === 0) {
+      return "";
+    }
     const champ = champAssets.find((champ) => parseInt(champ.key) === key);
     return champ.name;
   }
